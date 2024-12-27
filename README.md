@@ -38,3 +38,8 @@ This project implements a simple plant monitoring system that measures temperatu
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 ```
+## How to Use
+1. Connect the Components: Follow the wiring diagram to connect the DHT11 sensor, LCD screen, buzzer, LED, and other components to your microcontroller.
+2. Upload the Code: Upload the provided code to your microcontroller using the Arduino IDE.
+3. Monitor the System: Once the system is running, it will continuously display the temperature and humidity readings on the LCD. It will also control the buzzer and LED based on the input from the connected sensors or buttons.
+4. Check the Serial Monitor: Open the Serial Monitor in the Arduino IDE to view the temperature, humidity, and heat index in real time.
